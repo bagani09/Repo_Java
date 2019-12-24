@@ -9,5 +9,9 @@ public class ClassWork {
         System.out.println(myStatement.isEmpty());
         System.out.println(myStatement.startsWith("welcome"));
         System.out.println(myStatement.endsWith("good bye "));
+
+
+        System.out.println("New homework");
+
     }
 }
