@@ -115,6 +115,8 @@ public class ClassWork {
             if (words[i].length()> 4)
             System.out.println(words[i]);
 
+
+
         }
     }
 }
