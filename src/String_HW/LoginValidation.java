@@ -34,7 +34,7 @@ public class LoginValidation {
                 actualUserId = scan.nextLine();
                 actualPassword = scan.nextLine();
 //                if count equals to 5, then notifying user with custom message
-                if (i == 5) {
+                if (i == 4) {
                     System.out.println("Your account will be locked for 10 min");
 
                 }
