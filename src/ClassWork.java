@@ -109,11 +109,13 @@ public class ClassWork {
 //            System.out.println(words[i]);
 //        }
 
-        String [] words = {"grow", "wealth", "success", "help"};
+        String [] words = {"grow", "wealth", "success", "help", "dog", "mindset", "world"};
 //        if (words [i].length() > 4)
         for (int i = 0; i <= words.length-1; i++){
             if (words[i].length()> 4)
             System.out.println(words[i]);
+
+
 
 
 

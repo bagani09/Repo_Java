@@ -1,5 +1,7 @@
 package String_HW;
 
+import java.util.Arrays;
+
 public class OOPHW {
 //    *1
     public static  String reverseString () {
@@ -27,6 +29,7 @@ public class OOPHW {
         public static int sum (){
         int [] arrs = {20, 10, 40, 44};
         int sum = 0;
+        // for (int i = 0; i <= length -1; i++)
         for (int arr : arrs){
             sum += arr;
 
@@ -46,18 +49,50 @@ public class OOPHW {
             return average;
 
         }
+//        *6
+        public static int largestNum () {
+            int[] arr = new int[]{20, 10, 40, 44, 3};
+            int max = arr[0];
+            for (int i = 0; i < arr.length; i++) {
+                if (arr[i] > max) {
+                    max = arr[i];
 
+                }
+            }
+            return max;
+        }
+//       *7
+            public static int smallestNum () {
+                int[] arr1 = new int[]{20, 10, 40, 4};
+                int min = arr1[0];
+                for (int i = 0; i < arr1.length; i++) {
+                    if (arr1[i] < min) {
+                        min = arr1[i];
+                    }
+                }
+                return min;
+        }
+
+
+//            *8
+            public static char abbreviations (){
         
+            }
+
 
         public static void main(String[] args) {
 
         System.out.println(reverseString());
 
-        System.out.println(nums());
+        System.out.println(Arrays.toString(nums()));
 
         System.out.println(sum());
 
         System.out.println(arrayAverage());
+
+        System.out.println("the largest number is: " + largestNum());
+
+        System.out.println("the smallest number is " + smallestNum());
 
 
     }
