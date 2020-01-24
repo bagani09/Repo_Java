@@ -75,9 +75,6 @@ public class OOPHW {
 
 
 //            *8
-            public static char abbreviations (){
-        
-            }
 
 
         public static void main(String[] args) {
